@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # apps local
     'backend.apps.assessments.apps.AssessmentsConfig',
     'backend.apps.patients.apps.PatientsConfig',
+    'backend.apps.wisc.apps.WiscConfig',
 ]
 
 MIDDLEWARE = [
